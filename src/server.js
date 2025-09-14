@@ -26,7 +26,7 @@ console.log("host",HOST);
 //     socket.on('close',()=>console.log('[conn] closed'));
 // })
 
-server.on("listening",()=>{
+server.on("listning",()=>{
     // console.log(`SOCKS5 proxy (stub) listning on ${HOST}:${PORT}`);
     log.info(`SOCKS5 proxy (stub) listning on ${HOST}:${PORT}`);
     

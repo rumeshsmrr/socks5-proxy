@@ -1,10 +1,6 @@
 # Minimal SOCKS5 Proxy (Node.js, stdlib only)
 
-Implements a subset of RFC 1928/1929:
-- Username/password authentication
-- `CONNECT` (TCP tunneling)
-- Logs each connection
-- Configurable via `.env`
+
 
 ## Run
 

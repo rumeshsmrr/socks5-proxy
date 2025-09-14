@@ -11,7 +11,7 @@ console.log("port",PORT);
 console.log("host",HOST);
 
 const server = net.createServer((socket) =>{
-    console.log(`[cons] ${socket.remoteAddress}:${socket.remortePort}}`);
+    console.log(`[cons] ${socket.remoteAddress}:${socket.remotePort}}`);
     socket.on('error',(e)=>console.log("[socket error]", e.message));
     socket.on('close',()=>console.log('[conn] closed'));
 })

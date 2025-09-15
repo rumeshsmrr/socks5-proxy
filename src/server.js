@@ -6,8 +6,8 @@ const { createSocks5Server } = require("./socks5");
 
 console.log('env port',process.env.PORT)
 
-const PORT = parseInt(process.env.PORT || "1080",10);
-const HOST =  process.env.Host || '0.0.0.0';
+const PORT = parseInt(process.env.PORT || "3000",10);
+const HOST =  process.env.HOST || '0.0.0.0';
 const LOG_LEVEL = process.env.LOG_LEVEL || "info";
 const USER = process.env.PROXY_USER ||"user";
 const PASS = process.env.PROXY_PASS || 'pass';
